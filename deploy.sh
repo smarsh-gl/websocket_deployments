@@ -1,6 +1,5 @@
 
 if [ -d "app" ]; then
-  # Control will enter here if $DIRECTORY exists.
   cd app
   git pull origin master
   npm install
