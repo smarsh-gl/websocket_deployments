@@ -34,7 +34,7 @@ io.on('connection', function (socket) {
 
 
 function connected(socket) {
-	socket.emit('connected',{message:"I'm still connected after change"});
+	socket.emit('connected',{message:"I'm still connected after another change"});
 	setTimeout(function() {
 		connected(socket);
 	},1000);
