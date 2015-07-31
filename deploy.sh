@@ -12,4 +12,3 @@ else
   forever start ../forever.json  
   cd ..
 fi
-#ADDING SOME CRAP
